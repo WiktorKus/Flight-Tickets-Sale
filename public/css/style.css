@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, #234AB5 0%, #000000 100%);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 50%;
+    text-align: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 116px;
+
+    color: #FFFFFF;
+}
+
+.logo-subtitle {
+    padding-right: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+.login-container {
+    width: 50%;
+}
+
+.log-in {
+    margin-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50vh;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+button {
+    
+    width: 80%;
+    height: 6vh;
+    background: rgba(0, 0, 0, 0.54);
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+
+    border: none;
+    color: white;
+    margin: 2em;
+    margin-top: 10px;
+    line-height: 2em;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+}
+
+input {
+    
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 1em;
+    margin: 1em;
+    width: 75%;
+    height: 3vh;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+
+@media only screen and (max-device-width: 420px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .login-container, .logo {
+        width: 100%;
+        font-size: 150px;
+    }
+
+    .logo-subtitle {
+        visibility: hidden;
+    }
+
+    form {
+        margin: auto;
+        margin-top: 50px;
+        height: 700px;
+    
+    }
+    
+    img {
+        width: 2em;
+        height: 2em;
+    }
+
+    input {
+        font-size: 25px;
+    }
+}
+
