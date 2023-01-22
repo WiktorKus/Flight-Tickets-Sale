@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+
+.base-container {
+    height: 100vh;
+    background: linear-gradient(180deg, #234AB5 0%, #000000 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin-left: 10em;
+    position: absolute;
+    width: 30%;
+    height: 70vh;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;    
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 1em;
+    margin: 1.8em;
+    width: 40%;
+    height: 2vh;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.fa-plane-departure, .fa-plane-arrival, .fa-calendar-days {
+    color: white;
+    margin-left: 4em;
+}
+
+button {
+    width: 60%;
+    height: 6vh;
+    background: grey;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+
+    border: none;
+    color: white;
+    margin: 5.5em;
+    margin-top: 10px;
+ 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
+}
+
+label {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 2em;
+}
+
+ul {
+    list-style-type: none;
+    font: normal normal normal 20px/27px Segoe UI;
+    letter-spacing: 0.72px;
+    color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    display:inline-flex;
+    text-align: left;
+    margin-top: 1em;
+    font-size: 25px;
+}
+
+main {
+    margin-left: 50em;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.link {
+    margin-left: 1em;
+    text-align: center;
+    letter-spacing: 0.72px;
+    color: #FFFFFF;
+    padding: 0.2rem;
+    width: 80%;
+}
+
+.logo {
+    margin-top: 45em;
+    margin-left: 18em;
+}
+
+.logoText {
+    color: white;
+    margin-left: 19em;
+}
