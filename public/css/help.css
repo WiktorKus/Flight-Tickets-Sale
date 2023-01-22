@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+}
+
+.help-container {
+    height: 100vh;
+    background: linear-gradient(180deg, #234AB5 0%, #000000 100%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+    padding: 4em;
+    overflow: auto;
+}
+
+.textBox>div>div {
+    height: 70%;
+    margin: 1em;
+    color: white;
+}
+
+.textBox>div {
+    height: 600px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 1em 1em 0 0;
+}
+
+.icon {
+    width: 80px;
+    height: 65px;
+}
+
+.topic {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    
+    color: #FFFFFF;
+}
+
+.subText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF
+}
+
+.airplane {
+    position: absolute;
+    z-index: 0;
+}
+
+.logo {
+    margin-left: 110em;
+    
+}
+
+.logoText {
+    color: white;
+    margin-left: 110em;
+}
+
+.airplane {
+    z-index: -1;
+}
+
+.fa-xmark {
+    margin-right: 35em;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
