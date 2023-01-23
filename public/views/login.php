@@ -13,15 +13,20 @@
             </div>
         </div>
         <div class="login-container">
-            <form>
-                <div class="log-in">
-                    LOG IN
+            <form class="login" action="login" method="POST">
+                <div class="message">
+                    <?php if(isset($messages)) {
+                        foreach ($messages as $message) {
+                            echo $message;
+                        }
+                    }
+                    ?>
                 </div>
                 Login
-                <input name="login" type="text" placeholder="jan.kowalski@gmail.com">
+                <input name="email" type="text" placeholder="jan.kowalski@gmail.com">
                 Password
                 <input name="password" type="password" placeholder="**********">
-                <button class="btnLogIn">Log in</button>
+                <button type="submit" class="btnLogIn">Log in</button>
                 <button class="btnSignIn">Sign in</button>
             </form>
         </div>
