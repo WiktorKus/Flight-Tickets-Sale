@@ -1,5 +1,5 @@
 <?php
-// require_once "config.php";
+
 class Database {
     private $username;
     private $password;
@@ -23,7 +23,6 @@ class Database {
                 ["sslmode"  => "prefer"]
             );
 
-            // set the PDO error mode to exception
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             return $conn;
         }
