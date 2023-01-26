@@ -6,7 +6,7 @@
 </head>
 <body>
     <div class="base-container">
-        <form>
+        <form action="availableFlights" method="POST">
             <div class="form">
                 <div>
                     <i class="fa-solid fa-plane-departure fa-2x"></i>
@@ -46,13 +46,13 @@
             <header>
                 <ul>
                     <li>
-                        <a href="#" class="link">Cart</a>
+                        <a href="http://localhost:8080/cartFlights" class="link">Cart</a>
                     </li>
                     <li>
-                        <a href="#" class="link">Help</a>
+                        <a href="http://localhost:8080/help" class="link">Help</a>
                     </li>
                     <li>
-                        <a href="#" class="link">Logout</a>
+                        <a href="http://localhost:8080" class="link">Logout</a>
                     </li>
                 </ul>
             </header>

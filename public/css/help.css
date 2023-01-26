@@ -74,11 +74,6 @@ section {
     color: #FFFFFF
 }
 
-.airplane {
-    position: absolute;
-    z-index: 0;
-}
-
 .logo {
     margin-left: 110em;
     
@@ -87,10 +82,6 @@ section {
 .logoText {
     color: white;
     margin-left: 110em;
-}
-
-.airplane {
-    z-index: -1;
 }
 
 .fa-xmark {

@@ -15,5 +15,4 @@ class DefaultController extends AppController {
     public function help() {
         $this->render('help');
     }
-
 }

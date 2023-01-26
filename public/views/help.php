@@ -6,7 +6,7 @@
 </head>
 <body>
     <div class="help-container">
-        <a href="#" class="link"><i class="fa-solid fa-xmark"></i></a>
+        <a href="http://localhost:8080/homePage" class="link"><i class="fa-solid fa-xmark"></i></a>
         <header>
             Do you need help?
         </header>
