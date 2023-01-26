@@ -26,9 +26,13 @@
                 <input name="email" type="text" placeholder="jan.kowalski@gmail.com">
                 Password
                 <input name="password" type="password" placeholder="**********">
-                <button type="submit" class="btnLogIn">Log in</button>
-                <button class="btnSignIn">Sign in</button>
+                <button type="submit" class="btnLogIn">LOGIN</button>
             </form>
+            <div>
+                <a href="http://localhost:8080/register">
+                    <button class="btnSignIn" style="margin-left: 50px">REGISTER</button>
+                </a>
+            </div>
         </div>
     </div>
 </body>
